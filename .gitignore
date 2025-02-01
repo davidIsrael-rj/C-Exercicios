@@ -1,0 +1,75 @@
+# Build e diretórios temporários
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.lib
+*.exp
+*.ipdb
+*.iobj
+*.rsp
+*.tlog
+*.lastbuildstate
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# Arquivos de log e de depuração
+*.log
+*.tlog
+*.trace
+
+# Diretórios gerados automaticamente
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+build/
+
+# Arquivos do Visual Studio
+.vscode/
+.vs/
+*.suo
+*.ncb
+*.user
+*.sdf
+*.cache
+*.VC.db
+*.VC.opendb
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# Configuração do CMake (se aplicável)
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+CMakeLists.txt.user
+
+# Arquivos de dependência do NuGet (caso use)
+packages/
+*.nupkg
+project.lock.json
+
+# Arquivos gerados pelo C++
+*.i
+*.ii
+*.s
+*.lst
+*.pch
+*.obj
+*.res
+*.bsc
+
+# Diretórios temporários do Windows
+Thumbs.db
+desktop.ini
+
+# Arquivos do sistema
+$RECYCLE.BIN/
