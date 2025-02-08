@@ -42,6 +42,7 @@ build/
 *.VC.opendb
 *.vcxproj.filters
 *.vcxproj.user
+*.vcxproj
 *.sln
 
 # Configuração do CMake (se aplicável)
