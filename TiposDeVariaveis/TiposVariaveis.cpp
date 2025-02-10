@@ -1,5 +1,8 @@
 #include <iostream>
 #include <tchar.h>
+#include <iomanip>
+
+
 int main()
 {
 	_tsetlocale(LC_ALL, _T("portuguese"));
@@ -15,17 +18,20 @@ int main()
 	std::cout << "Tamanho da Variável Número: " << sizeof(Numero) << " Bytes" << std::endl;
 	std::cout << "Endereço carregado na Memória: " << &Numero << std::endl;
 	
-	std::cout << "**************************" <<std::endl;
+	std::cout << "\n**************************\n" <<std::endl;
 
 	std::cout << "Valor Número2: " << Numero2 << std::endl;
 	std::cout << "Tamanho da Variável Número2: " << sizeof(Numero2)<<" Bytes" << std::endl;
 	std::cout << "Endereço carregado na Memória: " << &Numero2 << std::endl;
 
-	std::cout << "**************************" << std::endl;
+	std::cout << "\n**************************\n" << std::endl;
 
 	std::cout << "Valor Número3: " << Numero3 << std::endl;
+	std::cout << "Valor Número3: " << std::setprecision(12)<<Numero3 << std::endl;
 	std::cout << "Tamanho da Variável Número3: " << sizeof(Numero3) << " Bytes" << std::endl;
 	std::cout << "Endereço carregado na Memória: " << &Numero3 << std::endl;
+
+	std::cout << "\n**************************\n" << std::endl;
 
 	system("PAUSE");
 	return 0;
